@@ -6,7 +6,7 @@ https://alexalexd.github.io/vue-social-app/
 
 ## Features
 * Creating/editing account
-* Creating Text posts
+* Creating еext posts
 * Recording voice
 * Leaving comments
 * Searching/subscribing for accounts
