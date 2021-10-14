@@ -9,6 +9,6 @@ https://alexalexd.github.io/vue-social-app/
 $ yarn install
 ```
 ```
-$ yarn dev
+$ yarn serve
 ```
 
