@@ -5,13 +5,11 @@ Web app for reading/creating text and voice posts.
 https://alexalexd.github.io/vue-social-app/
 
 ## Features
-* Creating account
-* Editing account
+* Creating/editing account
 * Creating Text posts
 * Recording voice
 * Leaving comments
-* Searching for account
-* Subscribe for accounts
+* Searching/subscribing for accounts
 
 ## Install
 ```
