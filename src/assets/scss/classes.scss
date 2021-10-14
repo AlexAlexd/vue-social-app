@@ -1,0 +1,84 @@
+@import './vars.scss';
+
+.container {
+	max-width: 800px;
+	width: 100%;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+.input {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 $offset;
+	border: 1px solid $border-color;
+	border-radius: $border-radius-s;
+	width: 100%;
+	&:focus {
+		border: 1px solid lighten(black, 20%);
+	}
+}
+.input-error {
+	border: 1px solid $danger;
+}
+.btn {
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 $offset * 2;
+	text-align: center;
+	border-radius: $border-radius-s;
+	font-size: $font-size-m;
+    user-select: none;
+	&.disabled {
+		opacity: 0.7;
+	}
+}
+.btn-primary {
+	background-color: $primary;
+	color: white;
+}
+.btn-danger {
+	color: $danger;
+}
+.btn-secondary {
+	font-size: $font-size-m;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+.spinner-wrapper {
+	display: flex;
+	justify-content: center;
+	height: fit-content;
+	padding: 30px 0;
+}
+.error-text {
+	color: $danger;
+	font-size: $font-size-s;
+}
+.link {
+	color: $primary;
+	text-decoration: underline;
+}
+.modal-buttons {
+	display: flex;
+	justify-content: flex-end;
+}
+.form {
+	&__field {
+		margin-top: $offset;
+	}
+	&__btn {
+		margin-top: $offset;
+		width: 100%;
+		font-weight: $font-weigth-m;
+	}
+	&__error {
+		text-align: center;
+		margin: $offset 0;
+	}
+}
+.no-scroll {
+	overflow: hidden;
+}
