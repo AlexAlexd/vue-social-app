@@ -1,5 +1,5 @@
 ## Description
-Web app for creating text and voice posts, with opportunity subscribe on people, to read their posts.
+Web app for reading/creating text and voice posts.
 
 ## Demo
 https://alexalexd.github.io/vue-social-app/
