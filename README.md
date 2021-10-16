@@ -4,6 +4,10 @@ Web app for reading/creating text and voice posts.
 ## Demo
 https://alexalexd.github.io/vue-social-app/
 
+## Tech stack
+Client: Vue 3
+Server: Firebase
+
 ## Features
 * Creating/editing account
 * Creating еext posts
